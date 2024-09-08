@@ -1,0 +1,19 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    place-items: center;
+    place-content: center;
+}
+
+.container {
+    max-width: 980px;
+    /* margin: 0 auto; */
+}
+
+img {
+    width: 100%;
+}
