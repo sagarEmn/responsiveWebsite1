@@ -2,65 +2,34 @@
 <html>
   <head>
     <meta content="width=deice-width, initial-scale=1" name="viewport" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
+      rel="stylesheet"
+    />
     <title>Some flexbox</title>
     <link href="styles.css" rel="stylesheet" />
   </head>
   <body>
-    <div class="container">
-      <h1>Let's start <span> getting a little </span> more fancy!</h1>
-      <img src="dumplings.jpg" alt="" />
-
-      <div class="columns">
-        <div class="col col-1">
-          <h2>Nulla deserunt.</h2>
-          <p>
-            Consequat elit nulla aliqua velit cupidatat sit est voluptate
-            reprehenderit non occaecat irure cillum. Non Lorem commodo eiusmod
-            sit voluptate ex est fugiat ullamco consectetur dolor. Ex ipsum aute
-            et id aliquip dolore anim elit aliquip anim nisi aliqua.
-          </p>
-        </div>
-        <div class="col col-2">
-          <h2>Nulla deserunt.</h2>
-          <p>
-            Consequat elit nulla aliqua velit cupidatat sit est voluptate
-            reprehenderit non occaecat irure cillum. Non Lorem commodo eiusmod
-            sit voluptate ex est fugiat ullamco consectetur dolor. Ex ipsum aute
-            et id aliquip dolore anim elit aliquip anim nisi aliqua.
-          </p>
-          <p>
-            Consequat elit nulla aliqua velit cupidatat sit est voluptate
-            reprehenderit non occaecat irure cillum.
-          </p>
-        </div>
-        <div class="col col-1 col-bg">
-          <p>
-            Consequat elit nulla aliqua velit cupidatat sit est voluptate
-            reprehenderit non occaecat irure cillum. Non Lorem commodo eiusmod
-            sit voluptate ex est fugiat ullamco consectetur dolor. Ex ipsum aute
-            et id aliquip dolore anim elit aliquip anim.
-          </p>
-        </div>
+    <div class="header">
+      <div class="site-title">
+        <h1>Living the social life</h1>
+        <p class="subtitle">A blog exploring minimalism in life</p>
       </div>
-      <div class="columns">
-        <div class="col col-3">
-          <h2>Nulla deserunt.</h2>
-          <p>
-            Consequat elit nulla aliqua velit cupidatat sit est voluptate
-            reprehenderit non occaecat irure cillum. Non Lorem commodo eiusmod
-            sit voluptate ex est fugiat ullamco consectetur dolor. Ex ipsum aute
-            et id aliquip dolore anim elit aliquip anim nisi aliqua.
-          </p>
-        </div>
-        <div class="col col-1 col-bg">
-          <p>
-            Consequat elit nulla aliqua velit cupidatat sit est voluptate
-            reprehenderit non occaecat irure cillum. Non Lorem commodo eiusmod
-            sit voluptate ex est fugiat ullamco consectetur dolor. Ex ipsum aute
-            et id aliquip dolore anim elit aliquip anim nisi aliqua.
-          </p>
-        </div>
-      </div>
+      <nav>
+        <ul class="nav-list">
+          <li class="nav-list-item">
+            <a class="nav-link current-page" href="#">Home</a>
+          </li>
+          <li class="nav-list-item">
+            <a class="nav-link" href="#">About me</a>
+          </li>
+          <li class="nav-list-item">
+            <a class="nav-link" href="#">Recent posts</a>
+          </li>
+        </ul>
+      </nav>
     </div>
   </body>
 </html>
