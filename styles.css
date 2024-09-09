@@ -23,6 +23,10 @@ h2 {
     font-size: 1.5rem;
 }
 
+p {
+    margin: 0;
+}
+
 .container {
   width: 95%;
   max-width: 980px;
@@ -35,4 +39,23 @@ img {
 
 .columns {
   display: flex;
+  margin: 1em 0;
+}
+
+.col-1 {
+    width: 25%;
+}
+
+.col-2 {
+    width: 50%;
+}
+
+.col-3 {
+    width: 75%;
+}
+
+.col-bg {
+    background: #212614;
+    padding: 1em;
+    color: #fff;
 }
