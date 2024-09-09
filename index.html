@@ -12,24 +12,82 @@
     <link href="styles.css" rel="stylesheet" />
   </head>
   <body>
-    <div class="header">
-      <div class="site-title">
-        <h1>Living the social life</h1>
-        <p class="subtitle">A blog exploring minimalism in life</p>
+    <div class="parent-container">
+      <div class="container">
+        <div class="header">
+          <div class="site-title">
+            <h1>Living the social life</h1>
+            <p class="subtitle">A blog exploring minimalism in life</p>
+          </div>
+          <nav>
+            <ul class="nav-list">
+              <li class="nav-list-item">
+                <a class="nav-link current-page" href="#">Home</a>
+              </li>
+              <li class="nav-list-item">
+                <a class="nav-link" href="#">About me</a>
+              </li>
+              <li class="nav-list-item">
+                <a class="nav-link" href="#">Recent posts</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
       </div>
-      <nav>
-        <ul class="nav-list">
-          <li class="nav-list-item">
-            <a class="nav-link current-page" href="#">Home</a>
-          </li>
-          <li class="nav-list-item">
-            <a class="nav-link" href="#">About me</a>
-          </li>
-          <li class="nav-list-item">
-            <a class="nav-link" href="#">Recent posts</a>
-          </li>
-        </ul>
-      </nav>
+      <!-- /container -->
     </div>
+
+    <div class="parent-container">
+      <main>
+        <article class="article-featured">
+          <h2 class="article-title">
+            <img class="article-image" src="" alt="" />
+            <p class="article-title"></p>
+            <p class="article-body"></p>
+            <a class="article-read-more" href="#"></a>
+          </h2>
+        </article>
+        <article class="article-recent">
+          <div class="article-recent-main">
+            <h2 class="article-title"></h2>
+            <p class="article-body"></p>
+            <a href="#" class="article-read-more"></a>
+          </div>
+          <div class="article-recent-secondary">
+            <img src="" alt="" class="article-image" />
+            <p class="article-info"></p>
+          </div>
+        </article>
+      </main>
+
+      <aside class="sidebar">
+        <div class="sidebar-widget">
+          <h2 class="widget-title"></h2>
+          <img src="" alt="" class="widget-image"/>
+          <p class="widget-body"></p>
+        </div>
+
+        <div class="sidebar-widget">
+          <h2 class="widget-title"></h2>
+          <div class="widget-recent-post">
+            <h3 class="widget-recent-post-title"></h3>
+            <img src="" alt="" class="widget-image">
+          </div>
+          <div class="widget-recent-post">
+            <h3 class="widget-recent-post-title"></h3>
+            <img src="" alt="" class="widget-image">
+          </div>
+          <div class="widget-recent-post">
+            <h3 class="widget-recent-post-title"></h3>
+            <img src="" alt="" class="widget-image">
+          </div>
+        </div>
+      </aside>
+    </div>
+
+    <footer>
+      <p></p>
+      <p></p>
+    </footer>
   </body>
 </html>
