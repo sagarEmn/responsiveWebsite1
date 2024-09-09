@@ -4,6 +4,25 @@ body {
   padding: 0;
 }
 
+body {
+    font-size: 1.125rem;
+    color: #707070;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #212614;
+    text-align: center;
+}
+
+h1 span {
+    color: #b7832f;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
 .container {
   width: 95%;
   max-width: 980px;
